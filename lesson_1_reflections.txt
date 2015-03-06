@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    As only differences between the two files are shown in a diff, I only needed to scan a handful of lines to pick up the bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+    Having access to the entire history of a file would allow me to easily identify bugs introduced, to try different approaches without fear of losing work, and to check if I've tried an approach before but abandoned it.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like GoogleDocs does?
+
+    A Pro is that you can use commits as miletones i.e. you can commit once you've finished a particular feature etc. ("a single logical change")
+
+    Another Pro is that it's easier to read version history as there's far less of it.
+
+    A big Con is that you risk forgetting to commit thus potentially losing your work, or at least losing that version history (that would have existed had you Committed more regularly).
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+    Traditional documents are often fairly standalone in that you're probably not likely to be editing two related documents simultaneously. However, with coding, having multiple files and folders is the norm (with separation of concerns, external libraries, etc).
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows a list of commits and commit comments, and a summary of the changes when one uses the stat argument.
+    git diff highlights the changes (insertions vs. deletions) between two commits (the files and folders in two commits).
+
+How might using version control make you more confident to make changes that could break something?
+
+    Because it's very easy to revert to a previous state if you do break something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Everything! (Oh, and FEWD P2.)
