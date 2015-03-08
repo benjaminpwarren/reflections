@@ -25,3 +25,9 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
   The result is a single branch that has all of the commits of the previous branches. The diagram shows this by 'splitting' into two branches then joining back into one. This also illustrates that the merge commit has two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  The benefit of automatic merging is that /most/ of the time it'll behave exactly as you would intend a manual merging to behave, thus saving you keystrokes and time. It also has the added benefit of not introducing typos/mistakes that could occur during a manual merge.
+
+  A con is that if a merge includes work from someone else that you're not familiar with (or your own changes, that you've forgotten), it could introduce a bug whereby behaviour you were relying on has changed. (git could potentially be modified to do some limited function def checking to see if any of the changes are likely to interact, without going down the full machine learning path).
