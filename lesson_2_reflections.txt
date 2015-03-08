@@ -15,3 +15,9 @@ What are some situations when branches would be helpful in keeping your history 
   Branches are useful during the implementation of new features or refactors. For example, they allow you to keep a 'current'/master version as well as a separate version for developing the new features, and so on.
 
   The 'current'/master branch can also continue to be developed in parallel, and branches can later be merged.
+
+How do the diagrams help you visualize the branch structure?
+
+  The diagrams clearly show the branch points in the hierarchy and thus all the antecendants of a branch are easily identifiable. This also means it's easy to identify reachability.
+
+  Whilst it's possible to understand a hierarchy just based on IDs and parent IDs, we effectively convert these into a branch structure diagram in our minds to reach that understanding.
