@@ -21,3 +21,7 @@ How do the diagrams help you visualize the branch structure?
   The diagrams clearly show the branch points in the hierarchy and thus all the antecendants of a branch are easily identifiable. This also means it's easy to identify reachability.
 
   Whilst it's possible to understand a hierarchy just based on IDs and parent IDs, we effectively convert these into a branch structure diagram in our minds to reach that understanding.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+  The result is a single branch that has all of the commits of the previous branches. The diagram shows this by 'splitting' into two branches then joining back into one. This also illustrates that the merge commit has two parents.
