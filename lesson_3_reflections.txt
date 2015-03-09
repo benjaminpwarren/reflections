@@ -6,7 +6,7 @@ Why might you want to always pull changes manually rather than having Git automa
 
   Because remote changes by others could overwrite the work you've done.
 
-Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
   A branch is a 'splitting' internal to the repository.
   A clone is a copy of a repository.
@@ -16,12 +16,12 @@ What is the benefit of having a copy of the last known state of the remote store
 
   A local copy of a the last remote state is helpful if you're going to be without internet access for a period.
 
-How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
   Email, Dropbox, LAN.
 
   Saving a file would be easier, you wouldn't have to think about whether to commit it or not. However, merging and change tracking would be much more manual and labour-intensive.
 
-When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
   Fill in your answer here
